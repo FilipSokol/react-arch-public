@@ -5,9 +5,11 @@
 @layer utilities {
   .textbox {
     word-spacing: 1px;
-    color: #333;
   }
 
+  .cgray {
+    color: #333;
+  }
   .navupper {
     text-transform: uppercase;
     text-decoration: none;

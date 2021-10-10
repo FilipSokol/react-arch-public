@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="bg-hero-pattern h-hero bg-no-repeat bg-cover bg-center grid justify-items-center items-center">
-      <div className="px-4 ">
+      <div className="px-10">
         <img
           src={logowhite}
           alt="logo"

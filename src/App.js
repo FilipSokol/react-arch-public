@@ -2,6 +2,7 @@ import "./App.css";
 
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop.js";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages";
 import About from "./pages/about";
@@ -32,6 +33,7 @@ function App() {
   });
   return (
     <div className="App">
+      <ScrollToTop />
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Switch>

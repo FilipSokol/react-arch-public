@@ -4,7 +4,7 @@ import logowhite from "../images/big_logo_white.png";
 const about = () => {
   return (
     <>
-      <div className="bg-fixed bg-hero-pattern h-hero md:h-about bg-no-repeat bg-cover bg-center justify-items-center items-center">
+      <div className="bg-fixed bg-hero-pattern h-hero md:h-about bg-no-repeat bg-cover bg-center grid justify-items-center items-center">
         <div className="px-4 ">
           <img
             src={logowhite}
@@ -13,15 +13,15 @@ const about = () => {
           />
         </div>
       </div>
-      <div className="h-auto bg-white mx-auto py-10 md:py-36 px-8 md:px-4 max-w-content items-center justify-center">
+      <div className="h-auto bg-white mx-auto py-10 md:py-36 px-8 max-w-content items-center justify-center">
         <div className="text-left h-auto font-josefin">
           <div className="w-full md:max-w-left overflow-hidden">
             <p className="tracking-wide text-5xl  md:text-6xl mb-10">O MNIE</p>
-            <p className="text-xl leading-relaxed font-medium textbox">
+            <p className="text-lg md:text-xl leading-relaxed font-medium">
               Wiem, że każdy z nas jest inny - niepowtarzalny, wyjątkowy.
               Dlatego - tworzę wnętrza wyjątkowe, w całości dopasowane do
               właściciela. Nie toleruję powtarzalności i nudy. Staram się Was
-              poznać i eksponować to, co w pomieszczeniu jest najciekawsze, a
+              poznać i eksponować to, co w pomieszczeniu jest najciekawsze, ae
               zarazem zgodne z charakterem i przysposobieniem inwestora.
               Potrafię więc słuchać. W swojej pracy kieruję się triadą
               Witruwiusza - trwałością, użytecznością i pięknem oraz
