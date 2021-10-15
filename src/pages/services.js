@@ -5,7 +5,7 @@ const services = () => {
   return (
     <>
       <div className="bg-fixed bg-hero-pattern h-hero md:h-about bg-no-repeat bg-cover bg-center grid justify-items-center items-center">
-        <div className="px-4 ">
+        <div className="px-10">
           <img
             src={logowhite}
             alt="logo"

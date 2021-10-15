@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div class="bg-black font-inter">
-      <div class="container md:h-navbar mx-auto py-5 md:py-auto items-center px-5 flex flex-wrap flex-col sm:flex-row ">
-        <p class="text-white text-sm text-center sm:text-left  pb-3 md:pb-0 md:pr-3">
+      <div class="container md:h-navbar md:py-0 py-5 mx-auto items-center px-5 flex flex-wrap flex-col sm:flex-row ">
+        <p class="text-white text-sm text-center sm:text-left sm:pb-0 pb-3 md:pr-3">
           © 2021 PRZESTRZEŃ ANNY
         </p>
         <a class="text-white" href="https://www.facebook.com/">

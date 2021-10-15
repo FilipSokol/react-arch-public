@@ -6,13 +6,14 @@ module.exports = {
       maxWidth: {
         content: "75rem",
         left: "50rem",
+        contentbox: "67rem",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         lato: ["Lato", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
-        poiretone: ["Poiret One", "sans-serif"],
+        poiretone: ["Poiret One", "sans-1serif"],
         raleway: ["Raleway", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
       },
@@ -22,7 +23,6 @@ module.exports = {
         navbar: "7vh",
         herologo: "23rem",
         smlogo: "43px",
-        dupa: "490px",
       },
       backgroundImage: {
         "hero-pattern": "url('/src/images/hero.png')",
