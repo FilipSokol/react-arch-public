@@ -6,9 +6,11 @@
   .textbox {
     word-spacing: 1px;
   }
-
   .cgray {
     color: #333;
+  }
+  .bcgray {
+    background-color: #eee;
   }
   .navupper {
     text-transform: uppercase;

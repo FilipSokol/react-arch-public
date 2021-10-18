@@ -17,16 +17,25 @@ module.exports = {
         raleway: ["Raleway", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
       },
+      width: {
+        textbox: "40rem",
+      },
       height: {
+        box: "107vh",
         hero: "93vh",
         about: "60vh",
         navbar: "7vh",
         herologo: "23rem",
         smlogo: "43px",
+        sketchmain: "35rem",
+      },
+      margin: {
+        vh15: "15vh",
       },
       backgroundImage: {
         "hero-pattern": "url('/src/images/hero.png')",
         "bg1-pattern": "url('/src/images/background2.png')",
+        "bg1-sketch": "url('/src/images/szkic3.jpg')",
       },
     },
   },
