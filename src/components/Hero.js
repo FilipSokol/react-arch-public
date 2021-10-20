@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="bg-hero-pattern h-hero bg-no-repeat bg-cover bg-center grid justify-items-center">
-      <div className="px-10 self-center pt-36 sm:pt-20">
+      <div className="px-10 self-center pt-0 sm:pt-20">
         <img
           src={logowhite}
           alt="logo"
           className="object-contain h-herologo w-full"
         />
       </div>
-      <div className="animate-bounce self-end">
+      <div className="animate-bounce self-end hidden sm:flex">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-8 w-8"

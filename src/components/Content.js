@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import szkic from "../images/szkic1.jpg";
 import szkictlo from "../images/szkic2.jpg";
 
@@ -7,16 +8,36 @@ const Content = () => {
     <>
       <div className="h-auto bg-no-repeat bg-cover bg-center bcgray grid justify-items-center items-center">
         <div className="h-box w-full bg-bg1-sketch py-20 flex justify-center ">
-          <img
-            src={szkic}
-            alt="szkic"
-            className="pl-12 self-end mb-40 lg:mb-16 h-96 lg:h-sketchmain w-auto hidden md:block"
-          />
+          <div className="pt-5">
+            <img
+              src={szkic}
+              alt="szkic"
+              className="pl-12 self-center h-sketchmainsm lg:h-sketchmain object-scale-down w-max hidden md:block"
+            />
+          </div>
           <div className="h-full w-full md:w-textbox bg-yellow-400 text-white md:-ml-5 md:mr-12 mx-5 p-5">
-            <div className="border-2 border-solid border-white h-full">
-              kontent
+            <div className="border-2 border-solid border-white h-full text-left py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
+              <p className="text-4xl md:text-5xl">O MNIE</p>
+              <p className="text-lg sm:text-2xl">
+                Architekt Wnętrz z bajeczną wyobraźnią, najpierw freelancer,
+                teraz z własną działalnością gospodarczą. Od dziecka rysowała
+                wszystko i po wszystkim. Obecnie głowę pełną pomysłów
+                wykorzystuje z powodzeniem we własnym biznesie, tworząc wnętrza
+                dopasowane. Swoją pracę wykonuje dobrze, bo kocha to co robi.
+                Urodzona artystka, ale zawsze z dalmierzem i laptopem w torebce.
+              </p>
+              <div className="pt-6">
+                <Link to="/about">
+                  <a className="btn anim font-montserrat tracking-widest border-t-2 border-b-2">
+                    WIĘCEJ
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
+        </div>
+        <div className="h-48 w-full max-w-contentbox cgray font-josefin text-black text-5xl flex flex-wrap content-center justify-center">
+          POTFOLIO
         </div>
         <div className="h-screen w-full max-w-contentbox bg-green-500 px-8 ">
           projekt 1

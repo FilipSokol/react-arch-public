@@ -22,12 +22,13 @@ module.exports = {
       },
       height: {
         box: "107vh",
-        hero: "93vh",
+        hero: "93.1vh",
         about: "60vh",
         navbar: "7vh",
         herologo: "23rem",
         smlogo: "43px",
         sketchmain: "35rem",
+        sketchmainsm: "28rem",
       },
       margin: {
         vh15: "15vh",
