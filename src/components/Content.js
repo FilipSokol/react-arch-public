@@ -7,16 +7,16 @@ const Content = () => {
   return (
     <>
       <div className="h-auto bg-no-repeat bg-cover bg-center bcgray grid justify-items-center items-center">
-        <div className="h-box w-full bg-bg1-sketch py-20 flex justify-center ">
+        <div className="h-auto w-full bg-bg1-sketch py-20 flex justify-center ">
           <div className="pt-5">
             <img
               src={szkic}
               alt="szkic"
-              className="pl-12 self-center h-sketchmainsm lg:h-sketchmain object-scale-down w-max hidden md:block"
+              className="pl-12 self-center h-sketchmainsm lg:h-sketchmain object-scale-down w-max hidden lg:block"
             />
           </div>
-          <div className="h-full w-full md:w-textbox bg-yellow-400 text-white md:-ml-5 md:mr-12 mx-5 p-5">
-            <div className="border-2 border-solid border-white h-full text-left py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
+          <div className="xl:w-paboutxl xl:h-paboutxl  bc5003 text-white md:-ml-5 md:mr-12 mx-5 p-5">
+            <div className="w-full h-full border-2 border-solid border-white text-left py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
               <p className="text-4xl md:text-5xl">O MNIE</p>
               <p className="text-lg sm:text-2xl">
                 Architekt Wnętrz z bajeczną wyobraźnią, najpierw freelancer,
@@ -36,17 +36,14 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <div className="h-48 w-full max-w-contentbox cgray font-josefin text-black text-5xl flex flex-wrap content-center justify-center">
+        <div className="h-32 w-full dm:max-w-contentbox cgray font-josefin text-black text-5xl flex flex-wrap content-end justify-center">
           POTFOLIO
         </div>
-        <div className="h-screen w-full max-w-contentbox bg-green-500 px-8 ">
-          projekt 1
-        </div>
-        <div className="h-screen w-full max-w-contentbox bg-green-600 px-8 ">
-          projekt 2
-        </div>
-        <div className="h-screen w-full max-w-contentbox bg-green-700 px-8 ">
-          projekt 3
+        <div className="w-full py-10 px-4 flex flex-wrap content-center justify-center">
+          <div className="w-full sm:w-pboxsm md:w-pboxmd lg:w-pboxlg xl:w-pboxxl h-pboxph sm:h-pboxsm md:h-pboxmd lg:h-pboxlg xl:h-pboxxl bg-yellow-200 text-white flex flex-col md:flex-row">
+            <div className="h-3/5 sm:h-full w-full md:w-1/2 bc5003"></div>
+            <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg1-pattern bg-no-repeat bg-cover bg-center"></div>
+          </div>
         </div>
         <div className="h-box w-full bg-bg1-sketch bg-fixed py-20 flex justify-center "></div>
       </div>
@@ -93,7 +90,7 @@ const Content = () => {
               ></textarea>
             </div>
             <div className="p-3 pt-4">
-              <button className="w-full bg-blue-600 hover:bg-blue-700 transition duration-200 each-in-out text-white py-3 px-4 rounded text-xl font-semibold font-inter">
+              <button className="w-full buttoninput transition duration-200 each-in-out text-white py-3 px-4 rounded text-xl font-semibold font-inter">
                 WYŚLIJ
               </button>
             </div>

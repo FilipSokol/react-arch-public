@@ -16,7 +16,7 @@ const about = () => {
       <div className="h-auto bg-white mx-auto py-10 md:py-36 px-8 max-w-content items-center justify-center">
         <div className="text-left h-auto font-josefin">
           <div className="w-full md:max-w-left overflow-hidden">
-            <p className="tracking-wide text-5xl  md:text-6xl mb-10">O MNIE</p>
+            <p className="tracking-wide text-5xl md:text-6xl mb-10">O MNIE</p>
             <p className="text-lg md:text-xl leading-relaxed font-medium">
               Wiem, że każdy z nas jest inny - niepowtarzalny, wyjątkowy.
               Dlatego - tworzę wnętrza wyjątkowe, w całości dopasowane do

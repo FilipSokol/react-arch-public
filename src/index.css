@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
+  html {
+    scroll-behavior: smooth;
+  }
+
   .btn {
     box-sizing: border-box;
     appearance: none;
@@ -58,7 +62,7 @@
     transition: width 150ms ease-in-out;
   }
   .anim:hover {
-    color: rgba(251, 191, 36, var(--tw-bg-opacity));
+    color: #1f3855;
   }
   .anim:hover:after {
     width: 110%;
@@ -70,9 +74,31 @@
   .cgray {
     color: #333;
   }
+
   .bcgray {
     background-color: #eee;
   }
+
+  .c5003 {
+    color: #1f3855;
+  }
+
+  .bc5003 {
+    background-color: #1f3855;
+  }
+
+  .bc5011 {
+    background-color: #1a2b3c;
+  }
+
+  .buttoninput {
+    background-color: #1f3855;
+  }
+
+  .buttoninput:hover {
+    background-color: #1a2b3c;
+  }
+
   .navupper {
     text-transform: uppercase;
     text-decoration: none;

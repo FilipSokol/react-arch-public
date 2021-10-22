@@ -14,17 +14,21 @@ const contact = () => {
           />
         </div>
       </div>
-      <div className="h-screen">
+      <div className="h-auto min-h-screen">
         <div className="h-full mx-auto py-10 md:py-36 px-8 max-w-content font-josefin">
           <div className="text-left h-auto ">
             <p className="tracking-wide text-5xl md:text-6xl mb-10">KONTAKT</p>
           </div>
+          <p className="text-left text-lg md:text-xl">
+            Zapraszamy do kontaktu wszystkich zainteresowanych współpracą z
+            profesjonalnym architektem wnętrz.
+          </p>
           <div className="h-full w-full md:w-textbox">
             <div className="h-full text-left flex flex-wrap">
-              <div className="flex">
+              <div className="flex pt-16">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
+                  className="h-8 w-8 c5003"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -41,10 +45,10 @@ const contact = () => {
                   blabla@blabla.com
                 </p>
               </div>
-              <div className="flex">
+              <div className="flex pt-16">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
+                  className="h-8 w-8 c5003"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -59,13 +63,13 @@ const contact = () => {
                   123
                 </p>
               </div>
-              <div className="flex">
+              <div className="flex pt-16">
                 <svg
                   fill="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  className="w-8 h-8"
+                  className="w-8 h-8 c5003"
                   viewBox="0 0 24 24"
                 >
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -78,64 +82,6 @@ const contact = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="h-full mx-auto py-10 md:py-36 px-8 max-w-content">
-          <div className="text-left h-auto font-josefin ">
-            <div className="w-full md:max-w-left overflow-hidden">
-              <p className="tracking-wide text-5xl md:text-6xl mb-10">
-                KONTAKT
-              </p>
-              <div className="flex flex-wrap bg-yellow-300 h-96 max-w-content">
-                <div className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                    />
-                  </svg>
-                  <span className="text-4xl pl-6">E-MAIL:</span>
-                  <span>blabla@blabla.com</span>
-                </div>
-                <div className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  <span className="text-4xl pl-6">NUMER TELEFONU:</span> 123
-                </div>
-                <div className="flex">
-                  <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-8 h-8"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                  </svg>
-                  <span className="text-4xl pl-6">FACEBOOK:</span> link
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
       <div className="h-screen bg-fixed bg-bg1-pattern bg-no-repeat bg-cover bg-center">
         <div className="flex justify-center items-center h-screen mx-auto bg-gray-500 bg-opacity-70 font-montserrat">
@@ -180,7 +126,7 @@ const contact = () => {
               ></textarea>
             </div>
             <div className="p-3 pt-4">
-              <button className="w-full bg-blue-600 hover:bg-blue-700 transition duration-200 each-in-out text-white py-3 px-4 rounded text-xl font-semibold font-inter">
+              <button className="w-full buttoninput transition duration-200 each-in-out text-white py-3 px-4 rounded text-xl font-semibold font-inter">
                 WYŚLIJ
               </button>
             </div>

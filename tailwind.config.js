@@ -3,11 +3,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      maxWidth: {
-        content: "75rem",
-        left: "50rem",
-        contentbox: "67rem",
-      },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         lato: ["Lato", "sans-serif"],
@@ -18,9 +13,26 @@ module.exports = {
         josefin: ["Josefin Sans", "sans-serif"],
       },
       width: {
+        paboutxl: "600px",
+        pboxsm: "540px",
+        pboxmd: "720px",
+        pboxlg: "960px",
+        pboxxl: "1140px",
         textbox: "40rem",
+        projectbox: "60rem",
+      },
+      maxWidth: {
+        content: "75rem",
+        left: "50rem",
+        contentbox: "67rem",
       },
       height: {
+        paboutxl: "750px",
+        pboxph: "900px",
+        pboxsm: "969px",
+        pboxmd: "555px",
+        pboxlg: "465px",
+        pboxxl: "555px",
         box: "107vh",
         hero: "93.1vh",
         about: "60vh",
@@ -30,6 +42,7 @@ module.exports = {
         sketchmain: "35rem",
         sketchmainsm: "28rem",
       },
+
       margin: {
         vh15: "15vh",
       },
