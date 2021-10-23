@@ -13,6 +13,9 @@ module.exports = {
         josefin: ["Josefin Sans", "sans-serif"],
       },
       width: {
+        sketchaboutlg: "381.33px",
+        sketchaboutxl: "418px",
+        paboutlg: "580px",
         paboutxl: "600px",
         pboxsm: "540px",
         pboxmd: "720px",
@@ -27,6 +30,10 @@ module.exports = {
         contentbox: "67rem",
       },
       height: {
+        sketchaboutlg: "500px",
+        sketchaboutxl: "555px",
+        paboutmd: "800px",
+        paboutlg: "750px",
         paboutxl: "750px",
         pboxph: "900px",
         pboxsm: "969px",
@@ -39,8 +46,6 @@ module.exports = {
         navbar: "7vh",
         herologo: "23rem",
         smlogo: "43px",
-        sketchmain: "35rem",
-        sketchmainsm: "28rem",
       },
 
       margin: {
@@ -49,6 +54,10 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/images/hero.png')",
         "bg1-pattern": "url('/src/images/background2.png')",
+        "bg2-pattern": "url('/src/images/background1.png')",
+        "bg3-pattern": "url('/src/images/background3.png')",
+        "bg4-pattern": "url('/src/images/background4.png')",
+        "bg5-pattern": "url('/src/images/background5.png')",
         "bg1-sketch": "url('/src/images/szkic3.jpg')",
       },
     },
