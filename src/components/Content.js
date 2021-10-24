@@ -45,12 +45,12 @@ const Content = () => {
               <div className="w-full h-full text-center justify-center py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
                 <p className="text-4xl md:text-5xl">Projekt 1</p>
                 <p className="text-xl md:text-lg lg:text-xl xl:text-2xl pt-10 sm:pt-0">
-                  Uwielbiam takie wnętrza! Istna zabawa formą, odważna
-                  inwestorka i szalone pomysły = AWANGARDOWE piękne loftowe
-                  wnętrze utrzymane w ryzach przez klasyczną sztukaterię!
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Mauris ut velit sodales, accumsan nunc ac, cursus velit.
+                  Curabitur sed quam aliquam, posuere dui ut, facilisis orci.
                 </p>
                 <div className="pt-10 sm:pt-6">
-                  <Link to="/about">
+                  <Link to="/project3">
                     <a className="btn anim font-montserrat tracking-widest border-t-2 border-b-2">
                       WIĘCEJ
                     </a>
@@ -66,12 +66,12 @@ const Content = () => {
               <div className="w-full h-full text-center justify-center py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
                 <p className="text-4xl md:text-5xl">Projekt 2</p>
                 <p className="text-xl md:text-lg lg:text-xl xl:text-2xl pt-10 sm:pt-0">
-                  Uwielbiam takie wnętrza! Istna zabawa formą, odważna
-                  inwestorka i szalone pomysły = AWANGARDOWE piękne loftowe
-                  wnętrze utrzymane w ryzach przez klasyczną sztukaterię!
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Mauris ut velit sodales, accumsan nunc ac, cursus velit.
+                  Curabitur sed quam aliquam, posuere dui ut, facilisis orci.
                 </p>
                 <div className="pt-10 sm:pt-6">
-                  <Link to="/about">
+                  <Link to="/project3">
                     <a className="btn anim font-montserrat tracking-widest border-t-2 border-b-2">
                       WIĘCEJ
                     </a>
@@ -85,9 +85,9 @@ const Content = () => {
               <div className="w-full h-full text-center justify-center py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
                 <p className="text-4xl md:text-5xl">Projekt 3</p>
                 <p className="text-xl md:text-lg lg:text-xl xl:text-2xl pt-10 sm:pt-0">
-                  Uwielbiam takie wnętrza! Istna zabawa formą, odważna
-                  inwestorka i szalone pomysły = AWANGARDOWE piękne loftowe
-                  wnętrze utrzymane w ryzach przez klasyczną sztukaterię!
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Mauris ut velit sodales, accumsan nunc ac, cursus velit.
+                  Curabitur sed quam aliquam, posuere dui ut, facilisis orci.
                 </p>
                 <div className="pt-10 sm:pt-6">
                   <Link to="/project3">
@@ -101,8 +101,10 @@ const Content = () => {
             <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg5-pattern bg-no-repeat bg-cover bg-center"></div>
           </div>
         </div>
-        <div className="min-h-screen w-full bg-bg2-pattern bg-fixed flex justify-center">
-          <div className="items-center h-max mx-auto w-full bg-gray-500 bg-opacity-70"></div>
+        <div className="min-h-screen w-full bg-bg2-pattern bg-fixed bg-cover flex justify-center">
+          <div className="items-center h-max mx-auto w-full bg-gray-500 bg-opacity-70 text-white flex content-end justify-center">
+            (Tutaj będzie coś odnośnie usług)
+          </div>
         </div>
       </div>
       <div className="min-h-screen h-auto bg-white">
