@@ -90,7 +90,7 @@ const Content = () => {
                   wnętrze utrzymane w ryzach przez klasyczną sztukaterię!
                 </p>
                 <div className="pt-10 sm:pt-6">
-                  <Link to="/about">
+                  <Link to="/project3">
                     <a className="btn anim font-montserrat tracking-widest border-t-2 border-b-2">
                       WIĘCEJ
                     </a>

@@ -11,6 +11,8 @@ import Contact from "./pages/contact";
 import Dropdown from "./components/Dropdown";
 import Footer from "./components/Footer";
 
+import Project3 from "./pages/project3";
+
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -41,6 +43,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
         <Route path="/contact" component={Contact} />
+        <Route path="/project3" component={Project3} />
       </Switch>
       <Footer />
     </div>
