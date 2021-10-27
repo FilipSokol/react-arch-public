@@ -1,6 +1,5 @@
 import React from "react";
 import logowhite from "../images/big_logo_white.png";
-import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (

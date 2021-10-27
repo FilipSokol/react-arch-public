@@ -11,7 +11,9 @@ import Contact from "./pages/contact";
 import Dropdown from "./components/Dropdown";
 import Footer from "./components/Footer";
 
-import Project3 from "./pages/project3";
+import Project1 from "./pages/project1";
+import Project2 from "./pages/project3";
+import Project3 from "./pages/project2";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,6 +45,8 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
         <Route path="/contact" component={Contact} />
+        <Route path="/project1" component={Project1} />
+        <Route path="/project2" component={Project2} />
         <Route path="/project3" component={Project3} />
       </Switch>
       <Footer />

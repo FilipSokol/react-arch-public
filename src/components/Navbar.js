@@ -9,9 +9,11 @@ const Navbar = ({ toggle }) => {
         className="fixed top-0 inset-x-0 flex justify-between items-center h-navbar shadow bg-white text-black font-lato"
         role="navigation"
       >
-        <Link to="/">
-          <img src={logo} alt="logo" className="pl-8 h-smlogo w-smlogo" />
-        </Link>
+        <div className="pl-6 sm:pl-10">
+          <Link to="/">
+            <img src={logo} alt="logo" className="h-smlogo w-smlogo" />
+          </Link>
+        </div>
 
         <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
           <svg

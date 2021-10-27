@@ -1,11 +1,10 @@
 import React from "react";
 import logowhite from "../images/big_logo_white.png";
-import logo from "../images/logo_black.svg";
 
 const contact = () => {
   return (
     <>
-      <div className="bg-fixed bg-hero-pattern h-hero md:h-about bg-no-repeat bg-cover bg-center grid justify-items-center items-center">
+      <div className="bg-local md:bg-fixed bg-hero-pattern h-hero md:h-about bg-no-repeat bg-cover bg-center grid justify-items-center items-center">
         <div className="px-10">
           <img
             src={logowhite}

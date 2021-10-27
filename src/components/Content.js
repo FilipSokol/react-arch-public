@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import szkic from "../images/szkic1.jpg";
-import szkictlo from "../images/szkic2.jpg";
 
 const Content = () => {
   return (
@@ -50,7 +49,7 @@ const Content = () => {
                   Curabitur sed quam aliquam, posuere dui ut, facilisis orci.
                 </p>
                 <div className="pt-10 sm:pt-6">
-                  <Link to="/project3">
+                  <Link to="/project1">
                     <a className="btn anim font-montserrat tracking-widest border-t-2 border-b-2">
                       WIĘCEJ
                     </a>
@@ -61,7 +60,7 @@ const Content = () => {
             <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg1-pattern bg-no-repeat bg-cover bg-center"></div>
           </div>
           <div className="w-full sm:w-pboxsm md:w-pboxmd lg:w-pboxlg xl:w-pboxxl h-pboxph sm:h-pboxsm md:h-pboxmd lg:h-pboxlg xl:h-pboxxl text-white flex flex-col md:flex-row mt-20">
-            <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg4-pattern bg-no-repeat bg-cover bg-center"></div>
+            <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg5-pattern bg-no-repeat bg-cover bg-center"></div>
             <div className="h-3/5 sm:h-full w-full md:w-1/2 bc5003">
               <div className="w-full h-full text-center justify-center py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
                 <p className="text-4xl md:text-5xl">Projekt 2</p>
@@ -71,7 +70,7 @@ const Content = () => {
                   Curabitur sed quam aliquam, posuere dui ut, facilisis orci.
                 </p>
                 <div className="pt-10 sm:pt-6">
-                  <Link to="/project3">
+                  <Link to="/project2">
                     <a className="btn anim font-montserrat tracking-widest border-t-2 border-b-2">
                       WIĘCEJ
                     </a>
@@ -98,10 +97,10 @@ const Content = () => {
                 </div>
               </div>
             </div>
-            <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg5-pattern bg-no-repeat bg-cover bg-center"></div>
+            <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg4-pattern bg-no-repeat bg-cover bg-center"></div>
           </div>
         </div>
-        <div className="min-h-screen w-full bg-bg2-pattern bg-fixed bg-cover flex justify-center">
+        <div className="min-h-screen w-full bg-bg2-pattern bg-local md:bg-fixed bg-cover flex justify-center">
           <div className="items-center h-max mx-auto w-full bg-gray-500 bg-opacity-70 text-white flex content-end justify-center">
             (Tutaj będzie coś odnośnie usług)
           </div>

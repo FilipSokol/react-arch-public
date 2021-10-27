@@ -4,7 +4,7 @@ import logowhite from "../images/big_logo_white.png";
 const services = () => {
   return (
     <>
-      <div className="bg-fixed bg-hero-pattern h-hero md:h-about bg-no-repeat bg-cover bg-center grid justify-items-center items-center">
+      <div className="bg-local md:bg-fixed bg-hero-pattern h-hero md:h-about bg-no-repeat bg-cover bg-center grid justify-items-center items-center">
         <div className="px-10">
           <img
             src={logowhite}
