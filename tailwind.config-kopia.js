@@ -15,8 +15,6 @@ module.exports = {
       width: {
         sketchaboutlg: "381.33px",
         sketchaboutxl: "418px",
-        cserviceslg: "300px",
-        cservicesxl: "350px",
         paboutlg: "580px",
         paboutxl: "600px",
         pboxsm: "540px",
@@ -34,7 +32,6 @@ module.exports = {
       height: {
         sketchaboutlg: "500px",
         sketchaboutxl: "555px",
-        cservicesxl: "140px",
         paboutmd: "800px",
         paboutlg: "750px",
         paboutxl: "750px",
@@ -59,7 +56,7 @@ module.exports = {
         "bg1-pattern": "url('/src/images/background2.png')",
         "bg2-pattern": "url('/src/images/background1.png')",
         "bg3-pattern": "url('/src/images/background3.png')",
-        "bg4-pattern": "url('/src/images/background4.jpg')",
+        "bg4-pattern": "url('/src/images/background4.png')",
         "bg5-pattern": "url('/src/images/background5.png')",
         "bg1-sketch": "url('/src/images/szkic3.jpg')",
       },

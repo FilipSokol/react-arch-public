@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import szkic from "../images/szkic1.jpg";
 
+import one from "../images/Icons/one.svg";
+import two from "../images/Icons/two.svg";
+import three from "../images/Icons/three.svg";
+
 const Content = () => {
   return (
     <>
@@ -101,15 +105,50 @@ const Content = () => {
           </div>
         </div>
         <div className="min-h-screen w-full bg-bg2-pattern bg-local md:bg-fixed bg-cover flex justify-center">
-          <div className="items-center h-max mx-auto w-full bg-gray-500 bg-opacity-70 text-white flex content-end justify-center">
-            (Tutaj będzie coś odnośnie usług)
+          <div className="items-center h-max mx-auto w-full bg-gray-500 bg-opacity-70 text-white flex justify-center">
+            <div className="w-full py-10 px-4 flex content-center justify-center">
+              <div className="flex px-4 py-16 flex-col lg:flex-row">
+                <div className="h-auto md:w-full lg:w-cserviceslg xl:w-cservicesxl flex justify-center flex-col font-josefin sm:px-2 md:px-20 ld:px-10 lg:px-0 xl:px-0 mb-10 lg:mb-0">
+                  <img src={one} alt="logo" className="h-32" />
+                  <p className="pt-5 text-4xl h-30 md:h-20 lg:h-cservicesxl">
+                    UKŁAD FUNKCJONALNY
+                  </p>
+                  <p className="pt-5 w-auto h-auto md:h-cservicesxlpx-2 font-medium leading-relaxed text-lg">
+                    a nawet 2-3 ! (zależy to od rodzaju pomieszczenia i
+                    możliwości jakie mamy, generalnie w przypadku kuchni będzie
+                    ich zawsze więcej niż np w przypadku sypialni).
+                  </p>
+                </div>
+                <div className="h-auto md:w-full lg:w-cserviceslg xl:w-cservicesxl flex justify-center flex-col font-josefin sm:px-2 md:px-20 ld:px-10 lg:px-0 xl:px-0 ml-0 lg:ml-5 mt-5 lg:mt-0">
+                  <img src={two} alt="logo" className="h-32" />
+                  <p className="pt-5 text-4xl h-30 md:h-30 lg:h-cservicesxl">
+                    PROJEKT KONCEPCYJNY I FUKCJONALNY
+                  </p>
+                  <p className="pt-5 w-auto px-2 font-medium leading-relaxed text-lg h-cservicesxl">
+                    przedstawiony na fotorealistycznych wizualizacjach oraz
+                    informacje odnośnie użytych materiałów.
+                  </p>
+                </div>
+                <div className="h-auto md:w-full lg:w-cserviceslg xl:w-cservicesxl flex justify-center flex-col font-josefin sm:px-2 md:px-20 ld:px-10 lg:px-0 xl:px-0 ml-0 lg:ml-5 mt-5 lg:mt-0">
+                  <img src={three} alt="logo" className="h-32" />
+                  <p className="pt-5 text-4xl h-30 md:h-20 lg:h-cservicesxl">
+                    RYSUNKI TECHNICZNE
+                  </p>
+                  <p className="pt-5 w-auto px-2 font-medium leading-relaxed text-lg h-cservicesxl">
+                    oraz specyfikację materiałów wykończeniowych i elementów
+                    gotowych. Elektryka, WOD-KAN, rysunki dla stolarzy płytkarzy
+                    itd
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div className="min-h-screen h-auto bg-white">
         <div className="flex justify-center items-center h-screen mx-auto font-montserrat">
           <form
-            action="https://formsubmit.co/sok.filip@gmail.com"
+            action="https://formsubmit.co/biuro@przestrzenanny.pl"
             method="POST"
             className="w-full md:w-3/4 lg:w-3/6 p-4"
           >

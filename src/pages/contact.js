@@ -23,60 +23,80 @@ const contact = () => {
             profesjonalnym architektem wnętrz.
           </p>
           <div className="h-full w-full md:w-textbox">
-            <div className="h-full text-left flex flex-wrap">
-              <div className="flex pt-16">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 c5003"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+            <div className="h-full text-center sm:text-left flex flex-wrap flex-col sm:flex-row">
+              <div className="flex pt-16 flex-col sm:flex-row">
+                <div className="pb-4 md:pb-1 flex justify-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-16 sm:w-8 c5003"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+                    />
+                  </svg>
+                </div>
+                <a
+                  className="flex flex-col sm:flex-row items-center"
+                  href="mailto:biuro@przestrzenanny.pl"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                  />
-                </svg>
-                <p>
-                  <span className="text-4xl pl-6">E-MAIL:</span>
-                  blabla@blabla.com
-                </p>
+                  <span className="text-4xl pl-0 sm:pl-6">E-MAIL</span>
+                  <span className="text-2xl sm:text-lg pl-0 sm:pl-4">
+                    biuro@przestrzenanny.pl
+                  </span>
+                </a>
               </div>
-              <div className="flex pt-16">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 c5003"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+              <div className="flex pt-16 flex-col sm:flex-row">
+                <div className="pb-4 md:pb-1 flex justify-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-16 sm:w-8 c5003"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <a
+                  className="flex flex-col sm:flex-row items-center"
+                  href="tel:+48601792398"
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                <p>
-                  <span className="text-4xl pl-6">NUMER TELEFONU:</span>
-                  123
-                </p>
+                  <span className="text-4xl pl-0 sm:pl-6">NUMER TELEFONU</span>
+                  <span className="text-2xl sm:text-lg pl-0 sm:pl-4">
+                    601 792 398
+                  </span>
+                </a>
               </div>
-              <div className="flex pt-16">
-                <svg
-                  fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  className="w-8 h-8 c5003"
-                  viewBox="0 0 24 24"
+              <div className="flex pt-16 flex-col sm:flex-row pb-16 sm:pb-0">
+                <div className="pb-4 md:pb-1 flex justify-center">
+                  <svg
+                    fill="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-16 sm:w-8 c5003"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </div>
+                <a
+                  className="flex flex-col sm:flex-row items-center"
+                  href="https://www.facebook.com/"
+                  target="_blank"
                 >
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-                <p>
-                  <span className="text-4xl pl-6">FACEBOOK</span>
-                  link
-                </p>
+                  <span className="text-4xl pl-0 sm:pl-6">FACEBOOK</span>
+                  <span className="text-2xl sm:text-lg pl-0 sm:pl-4">link</span>
+                </a>
               </div>
             </div>
           </div>
@@ -85,7 +105,7 @@ const contact = () => {
       <div className="h-screen bg-fixed bg-bg1-pattern bg-no-repeat bg-cover bg-center">
         <div className="flex justify-center items-center h-screen mx-auto bg-gray-500 bg-opacity-70 font-montserrat">
           <form
-            action="https://formsubmit.co/sok.filip@gmail.com"
+            action="https://formsubmit.co/biuro@przestrzenanny.pl"
             method="POST"
             className="w-full md:w-3/4 lg:w-3/6 p-4"
           >
