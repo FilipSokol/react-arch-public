@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ContentForm from "./ContactForm";
 import szkic from "../images/szkic1.jpg";
-
 import one from "../images/Icons/one.svg";
 import two from "../images/Icons/two.svg";
 import three from "../images/Icons/three.svg";
@@ -22,12 +22,13 @@ const Content = () => {
             <div className="w-full h-full border-2 border-solid border-white text-left py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
               <p className="text-4xl md:text-5xl">O MNIE</p>
               <p className="text-lg sm:text-2xl pt-10 sm:pt-0">
-                Architekt Wnętrz z bajeczną wyobraźnią, najpierw freelancer,
-                teraz z własną działalnością gospodarczą. Od dziecka rysowała
-                wszystko i po wszystkim. Obecnie głowę pełną pomysłów
-                wykorzystuje z powodzeniem we własnym biznesie, tworząc wnętrza
-                dopasowane. Swoją pracę wykonuje dobrze, bo kocha to co robi.
-                Urodzona artystka, ale zawsze z dalmierzem i laptopem w torebce.
+                Architekt wnętrz, najpierw freelancer, teraz z własną
+                działalnością. Od dziecka z zacięciem artystycznym, w końcu
+                absolwentka Wyższej Szkoły Technicznej w Katowicach, kierunek:
+                architektura wnętrz. Na co dzień uczestniczka kursów, szkoleń
+                branżowych, targów wnętrzarskich. Prywatnie szczęśliwy człowiek,
+                żona, mama trójki dzieci, psa i kotów. Osoba, która dzięki temu,
+                że na co dzień robi to co kocha nigdy nie jest w pracy.
               </p>
               <div className="pt-10 sm:pt-6">
                 <Link to="/about">
@@ -40,17 +41,17 @@ const Content = () => {
           </div>
         </div>
         <div className="h-32 w-full dm:max-w-contentbox cgray font-josefin text-black text-5xl flex flex-wrap content-end justify-center">
-          POTFOLIO
+          PROJEKTY
         </div>
-        <div className="w-full py-10 px-4 flex flex-wrap content-center justify-center">
+        <div className="py-10 px-4 flex flex-col content-center justify-center">
           <div className="w-full sm:w-pboxsm md:w-pboxmd lg:w-pboxlg xl:w-pboxxl h-pboxph sm:h-pboxsm md:h-pboxmd lg:h-pboxlg xl:h-pboxxl text-white flex flex-col md:flex-row mt-6">
             <div className="h-3/5 sm:h-full w-full md:w-1/2 bc5003">
               <div className="w-full h-full text-center justify-center py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
-                <p className="text-4xl md:text-5xl">Projekt 1</p>
+                <p className="text-4xl md:text-5xl">Śląskie Mieszkanie</p>
                 <p className="text-xl md:text-lg lg:text-xl xl:text-2xl pt-10 sm:pt-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Mauris ut velit sodales, accumsan nunc ac, cursus velit.
-                  Curabitur sed quam aliquam, posuere dui ut, facilisis orci.
+                  Aranżacaja mieszkania na wynajem <br />
+                  Lokalizacja: Katowice Brynów <br />
+                  Metraż: 40 m²
                 </p>
                 <div className="pt-10 sm:pt-6">
                   <Link to="/project1">
@@ -67,11 +68,14 @@ const Content = () => {
             <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg5-pattern bg-no-repeat bg-cover bg-center"></div>
             <div className="h-3/5 sm:h-full w-full md:w-1/2 bc5003">
               <div className="w-full h-full text-center justify-center py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
-                <p className="text-4xl md:text-5xl">Projekt 2</p>
+                <p className="text-4xl md:text-5xl">Nowoczesny apartament</p>
                 <p className="text-xl md:text-lg lg:text-xl xl:text-2xl pt-10 sm:pt-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Mauris ut velit sodales, accumsan nunc ac, cursus velit.
-                  Curabitur sed quam aliquam, posuere dui ut, facilisis orci.
+                  <p>
+                    Połączenie dwóch mieszkań w celu stworzenia ekskluzywnego
+                    apartamentu dla rodziny.
+                  </p>
+                  <p>Lokalizacja: Śródmieście Katowic</p>
+                  <p>Metraż: 130 m²</p>
                 </p>
                 <div className="pt-10 sm:pt-6">
                   <Link to="/project2">
@@ -83,14 +87,14 @@ const Content = () => {
               </div>
             </div>
           </div>
-          <div className="w-full sm:w-pboxsm md:w-pboxmd lg:w-pboxlg xl:w-pboxxl h-pboxph sm:h-pboxsm md:h-pboxmd lg:h-pboxlg xl:h-pboxxl text-white flex flex-col md:flex-row mt-20 mb-32">
+          <div className="w-full sm:w-pboxsm md:w-pboxmd lg:w-pboxlg xl:w-pboxxl h-pboxph sm:h-pboxsm md:h-pboxmd lg:h-pboxlg xl:h-pboxxl text-white flex flex-col md:flex-row mt-20">
             <div className="h-3/5 sm:h-full w-full md:w-1/2 bc5003">
               <div className="w-full h-full text-center justify-center py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
-                <p className="text-4xl md:text-5xl">Projekt 3</p>
+                <p className="text-4xl md:text-5xl">Mieszkanie na poddaszu</p>
                 <p className="text-xl md:text-lg lg:text-xl xl:text-2xl pt-10 sm:pt-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Mauris ut velit sodales, accumsan nunc ac, cursus velit.
-                  Curabitur sed quam aliquam, posuere dui ut, facilisis orci.
+                  Generalny remont mieszkania na poddaszu{" "}
+                  <p>Lokalizacja: Sosnowiec Centrum</p>
+                  <p>Metraż: 60 m²</p>
                 </p>
                 <div className="pt-10 sm:pt-6">
                   <Link to="/project3">
@@ -103,6 +107,32 @@ const Content = () => {
             </div>
             <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg4-pattern bg-no-repeat bg-cover bg-center"></div>
           </div>
+          <div className="w-full sm:w-pboxsm md:w-pboxmd lg:w-pboxlg xl:w-pboxxl h-pboxph sm:h-pboxsm md:h-pboxmd lg:h-pboxlg xl:h-pboxxl text-white flex flex-col md:flex-row mt-20">
+            <div className="h-2/5 sm:h-full w-full md:w-1/2 bg-bg1-sketch bg-no-repeat bg-cover bg-center"></div>
+            <div className="h-3/5 sm:h-full w-full md:w-1/2 bc5003">
+              <div className="w-full h-full text-center justify-center py-16 px-5 sm:p-16 font-josefin flex flex-wrap">
+                <p className="text-4xl md:text-5xl">Przychodnia</p>
+                <p className="text-xl md:text-lg lg:text-xl xl:text-2xl pt-10 sm:pt-0">
+                  <p>W trakcie realizacji.</p>
+                  <p>Planowane oddanie na początku roku.</p>
+                </p>
+                <div className="pt-10 sm:pt-6">
+                  <Link to="/portfolio">
+                    <a className="btn anim font-montserrat tracking-widest border-t-2 border-b-2">
+                      WIĘCEJ
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="pt-10 sm:pt-16 pb-20 sm:pb-24">
+          <Link to="/portfolio">
+            <a className="btnmore animmore font-montserrat tracking-widest border-t-2 border-b-2">
+              ZOBACZ WIĘCEJ
+            </a>
+          </Link>
         </div>
         <div className="min-h-screen w-full bg-bg2-pattern bg-local md:bg-fixed bg-cover flex justify-center">
           <div className="items-center h-max mx-auto w-full bg-gray-500 bg-opacity-70 text-white flex justify-center">
@@ -145,56 +175,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-screen h-auto bg-white">
-        <div className="flex justify-center items-center h-screen mx-auto font-montserrat">
-          <form
-            action="https://formsubmit.co/biuro@przestrzenanny.pl"
-            method="POST"
-            className="w-full md:w-3/4 lg:w-3/6 p-4"
-          >
-            <div className="p-3">
-              <input
-                className="block appearance-none placeholder-gray-500 placeholder-opacity-100 border border-light-blue-400 rounded-md w-full py-3 px-4 text-gray-700 leading-5 focus:outline-none focus:ring-2 focus:ring-light-blue-300"
-                type="text"
-                name="ImieInazwisko"
-                placeholder="Imię i nazwisko"
-                required
-              />
-            </div>
-            <div className="p-3">
-              <input
-                className="block appearance-none placeholder-gray-500 placeholder-opacity-100 border border-light-blue-400 rounded-md w-full py-3 px-4 text-gray-700 leading-5 focus:outline-none focus:ring-2 focus:ring-light-blue-300"
-                type="email"
-                name="Email"
-                placeholder="E-mail"
-                required
-              />
-            </div>
-            <div className="p-3">
-              <input
-                className="block appearance-none placeholder-gray-500 placeholder-opacity-100 border border-light-blue-400 rounded-md w-full py-3 px-4 text-gray-700 leading-5 focus:outline-none focus:ring-2 focus:ring-light-blue-300"
-                type="number"
-                name="NumerTelefonu"
-                placeholder="Numer telefonu (opcjonalnie)"
-              />
-            </div>
-            <div className="p-3">
-              <textarea
-                className="resize-none rounded-md block appearance-none placeholder-gray-500 placeholder-opacity-100 border border-light-blue-400 w-full py-3 px-4 text-gray-700 leading-5 focus:outline-none focus:ring-2 focus:ring-light-blue-300 h-80 md:h-56"
-                placeholder="Wiadomość"
-                type="textarea"
-                name="Wiadomosc"
-                required
-              ></textarea>
-            </div>
-            <div className="p-3 pt-4">
-              <button className="w-full buttoninput transition duration-200 each-in-out text-white py-3 px-4 rounded text-xl font-semibold font-inter">
-                WYŚLIJ
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
+      <ContentForm />
     </>
   );
 };

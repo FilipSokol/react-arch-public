@@ -25,60 +25,43 @@ const services = () => {
             </p>
             <div className="text-lg md:text-xl leading-relaxed font-medium">
               <p>
-                Przecież sam znasz się najlepiej, wiesz co Ci się podoba,
-                dlaczego ktoś miałby narysować to co Ty masz w głowie i dostać
-                za to pieniądze? Masz wiedzę potrzebną do projektu mieszkania.
-                Jeśli nie to przecież jest tyle dostępnych czasopism, które
-                pozwolą Ci zagłębić temat do granic wieloletnich studiów
-                architektury wnętrz. W dzieciństwie nawet coś zbudowałeś w Sims
-                i byłeś najlepszy!
+                Wykonuje projekty wnętrz domów, apartamentów, mieszkań oraz
+                lokali użytkowych. Realizuje zlecenia aranżacji przestrzeni
+                publicznych takich jak biura, przychodnie, restauracje, sale
+                zabaw. Prowadzę inwestycje od projektu koncepcyjnego aż po
+                nadzór autorski.
               </p>
-              <p className="pt-6">Czy aby na pewno?</p>
+              <p className="pt-6">Etapy Projektowania</p>
               <p className="pt-6">
-                1. Wiesz co Ci się podoba – to przecież jasne. Lubisz surowy
-                skandynawski styl, ale nic się nie stanie jak dodasz trochę
-                barokowych ornamentów. Architekt wnętrz ustrzeże Cię przed
-                pomieszaniem z poplątaniem. Czy to znaczy, że narzuci Ci co ma
-                Ci się podobać a co nie ? Absolutnie . Najpewniej połączy
-                zachcianki, w bardzo logiczny/ awangardowy sposób, tak aby wilk
-                był syty i owca cała. Należy też pamiętać, że jest się też
-                najobiektywniejszym, w momencie gdy sprawa Cie nie dotyczy
-                bezpośrednio. Ty będziesz przynosił i na siłę wkomponowywał w
-                domowym zaciszu wszystko co wzbudza jakiekolwiek emocje, ja
-                obiektywnie odpowiem “wystarczy”. Czasem warto zapytać o zdanie
-                kogoś innego, niż siebie.
+                1. Podczas spotkania i luźnej rozmowy z klientem poznaje
+                wymarzony styl, ulubione materiały, kolory. Poznaje wasze pasje,
+                hobby oraz styl życia. Poznaje waszych członków rodziny i ich
+                zaineresowania, którym mam stworzyć nowy dom. Daje możliwość
+                spotkania się z klientem w sklepach branżowych.
               </p>
               <p className="pt-6">
-                2. Projektowanie wnętrz związane jest artystyczną duszą, ale to
-                nie tylko moje hobby – To moja praca. Czy zastanawiamy się czy
-                lekarz potrzebny jest przy chorobach? Przeciąż każdy z nas,
-                mniej lub więcej wie co mu dolega, a apteki oferują całkiem
-                spory wachlarz leczniczych proszków. Każdy z nas ma własny zawód
-                i jest do niego przygotowany w określony sposób. Nie zapominajmy
-                że żeby być architektem wnętrz, nie wystarczy być “artystyczną
-                duszą”. Droga zaczyna się już na wieloletnich studiach, a wiedzę
-                trzeba wciąż uzupełniać na dodatkowych kursach, szkoleniach.
-                Dodatkowo prezentowane wizualizacje stworzone są przez
-                wyspecjalizowane programy, których możliwości są nieporównywalne
-                z Sims-ami.
+                2. Układ funkcjonalny – w moim odczuciu niezwykle ważny. Ta
+                część pracy poprzedzona wykonaniem inwentaryzacji. W zależności
+                od rodzaju pomieszczenia i możliwości jakie mamy mogę
+                zaproponować 2 lub więcej propozycji.
               </p>
               <p className="pt-6">
-                3. Czy to nie rozrzutność, mając tyle wydatków, fundować sobie
-                kolejny? Na temat zarobków architektów powstało wiele legend.
-                Niewiele się jednak mówi o realnych korzyściach wynikających z
-                takiej współpracy. Otóż możesz zaoszczędzić np. przy zakupie
-                mieszkania większość deweloperów daje swoim klientom możliwość
-                prze-aranżowania ścian i przyłączy według własnego pomysłu.
-                Warto z tego skorzystać! Na tym etapie można jeszcze wszystko,
-                co w gotowym mieszkaniu kosztowałoby prawie 10 razy więcej!
-                Dodatkowo trzeba pamiętać, że zanim zaczniecie budować wnętrze w
-                realu, wszystko już będzie ustalone w świecie 3D, co niweluje
-                koszty niewłaściwych decyzji. Można śmiało założyć, że
-                doświadczony projektant pozwoli Państwu tak zoptymalizować
-                koszty materiałów i usług, że zniweluje to inne, niepotrzebne
-                czy chybione wydatki. Dodam również, że projektant wnętrz,
-                wynosi zwykle 1-2% całkowitej przygody z zakupem i
-                zaaranżowaniem naszych 4 kątów.
+                3. Projekt koncepcyjny i funkcjonalny przedstawiony na
+                fotorealistycznych wizualizacjach 3D wybranych wcześniej
+                pomieszczeń
+              </p>
+              <p className="pt-6">
+                4. Dokumentacja techniczna wykonana na podstawie zatwierdzonych
+                wizualizacji zawierająca w zależności od złożoności projektu: -
+                projekt koncepcyjny -projekt funkcjonalny zawierający elementy
+                projektu, pkt sanitarne, przyłącza wod-kan -schemat stolarki
+                drzwiowej - rysunki ułożenia posadzek z podaniem ilości
+                materiału -widoki wybranych ścian, rysunki w formie przekrojów
+                -projekty mebli
+              </p>
+              <p className="pt-6">
+                5. Nadzór autorski Jest to dodatkowa opcja dla Klientów, którym
+                brakuje czasu by samodzielnie nadzorować
               </p>
             </div>
           </div>

@@ -115,7 +115,7 @@ const project3 = () => {
                         src={trzut}
                         alt="Rzut planu"
                         height="300"
-                        width="450"
+                        width="350"
                         srl_gallery_image="true"
                       />
                     </a>
@@ -125,11 +125,14 @@ const project3 = () => {
               <div className="text-center md:text-left text-lg lg:text-xl pt-10 md:pt-5">
                 <span className="text-4xl">Śląskie Mieszkanie</span>
                 <p className="pt-5">
-                  Temat: Realizacja projektu wnętrza mieszkania
+                  Temat: Nowoczesny apartament w sercu Katowic
                 </p>
-                <p>Cel: Wnętrze inwestycyjne</p>
-                <p>Lokalizacja: Katowice, Polska</p>
-                <p>Metraż: </p>
+                <p>
+                  Cel: Połączenie dwóch mieszkań w celu stworzenia ekskluzywnego
+                  apartamentu dla rodziny
+                </p>
+                <p>Lokalizacja: Śródmieście Katowic</p>
+                <p>Metraż: 130 m²</p>
               </div>
             </div>
           </div>

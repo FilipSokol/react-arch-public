@@ -2,6 +2,14 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      nvbar: "890px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
@@ -35,6 +43,8 @@ module.exports = {
         sketchaboutlg: "500px",
         sketchaboutxl: "555px",
         cservicesxl: "140px",
+        contactboxlg: "300px",
+        contactboxxl: "350px",
         paboutmd: "800px",
         paboutlg: "750px",
         paboutxl: "750px",
@@ -56,11 +66,11 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/images/hero.png')",
-        "bg1-pattern": "url('/src/images/background2.png')",
-        "bg2-pattern": "url('/src/images/background1.png')",
+        "bg1-pattern": "url('/src/images/background1.jpg')",
+        "bg2-pattern": "url('/src/images/background2.png')",
         "bg3-pattern": "url('/src/images/background3.png')",
         "bg4-pattern": "url('/src/images/background4.jpg')",
-        "bg5-pattern": "url('/src/images/background5.png')",
+        "bg5-pattern": "url('/src/images/background5.jpg')",
         "bg1-sketch": "url('/src/images/szkic3.jpg')",
       },
     },

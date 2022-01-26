@@ -11,7 +11,6 @@ import isalon1 from "../images/Projekt3/image/salon1.jpg";
 import isalon2 from "../images/Projekt3/image/salon2.jpg";
 import isalon3 from "../images/Projekt3/image/salon3.jpg";
 import isalon4 from "../images/Projekt3/image/salon4.jpg";
-import ikuchnia1 from "../images/Projekt3/image/kuchnia1.jpg";
 
 const options = {
   buttons: {
@@ -62,11 +61,6 @@ const project2 = () => {
                   <img src={isalon4} alt="Salon" />
                 </a>
               </div>
-              <div className="px-5 pt-5">
-                <a href={ikuchnia1} data-attribute="SRL">
-                  <img src={ikuchnia1} alt="Kuchnia" />
-                </a>
-              </div>
             </SRLWrapper>
           </SimpleReactLightbox>
         </div>
@@ -111,13 +105,16 @@ const project2 = () => {
                 </SRLWrapper>
               </SimpleReactLightbox>
               <div className="text-center md:text-left text-lg lg:text-xl pt-10 md:pt-5">
-                <span className="text-4xl">Śląskie Mieszkanie</span>
+                <span className="text-4xl">Mieszkanie na poddaszu</span>
                 <p className="pt-5">
-                  Temat: Realizacja projektu wnętrza mieszkania
+                  Temat: Generalny remont mieszkania na poddaszu
                 </p>
-                <p>Cel: Wnętrze inwestycyjne</p>
-                <p>Lokalizacja: Katowice, Polska</p>
-                <p>Metraż: </p>
+                <p>
+                  Cel: Generalny remont mieszkania, zmiana WC na łazienkę z
+                  prysznicem i toaletą
+                </p>
+                <p>Lokalizacja: Sosnowiec Centrum</p>
+                <p>Metraż: 60 m²</p>
               </div>
             </div>
           </div>

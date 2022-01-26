@@ -18,27 +18,26 @@ const about = () => {
           <div className="w-full md:max-w-left overflow-hidden">
             <p className="tracking-wide text-5xl md:text-6xl mb-10">O MNIE</p>
             <p className="text-lg md:text-xl leading-relaxed font-medium">
-              Wiem, że każdy z nas jest inny - niepowtarzalny, wyjątkowy.
-              Dlatego - tworzę wnętrza wyjątkowe, w całości dopasowane do
-              właściciela. Nie toleruję powtarzalności i nudy. Staram się Was
-              poznać i eksponować to, co w pomieszczeniu jest najciekawsze, ae
-              zarazem zgodne z charakterem i przysposobieniem inwestora.
-              Potrafię więc słuchać. W swojej pracy kieruję się triadą
-              Witruwiusza - trwałością, użytecznością i pięknem oraz
-              przekonaniem, że wnętrze które zaprojektuję Ja, będzie służyć
-              Tobie. Cierpliwie i precyzyjnie, zestawiam wnętrza ładne z
-              funkcjonalnymi i ergonomicznymi. Na co dzień współpracuję ze
-              specjalistami z wielu branż powiązanych z projektowaniem wnętrz,
-              poczynając od przedstawicieli z branży dekoratorskiej, poprzez
-              stolarzy aż do wykonawstwa - to bezpośrednio przekłada się na
-              zadowolenie klienta z naszej współpracy. Jestem zwolenniczką
-              naturalnych surowców, które w moim mniemaniu stanowią doskonałe
-              tło do życia. Przywiązuje ogromną wagę do szczegółów, bo przecież
-              w nich tkwi diabeł, to one sprawiają że wnętrza stają się bardziej
-              wyjątkowe. Staram się dopasować do Was nie tylko wnętrza, ale
-              również zakres moich prac. Działam na obrębie całego kraju,
-              głownie jednak w rejonie Śląska, zdalnie oraz stacjonarnie. Tworzę
-              kompleksowe projekty oraz poszczególne jego części. Zapraszam do
+              Z ogromną pasją, zaangażowaniem podchodzę do mojej pracy. Każda
+              inwestycja traktowana jest przeze mnie wyjątkowo i indywidualnie.
+              Siadam nad: ”czystą kartką papieru” i z Waszą pomocą zmieniam
+              PRZESTRZEŃ ANNY w WASZĄ PRZESTRZEŃ. Wiem, że każdy z nas jest
+              inny, niepowtarzalny i taki ma być również projekt. Staram się Was
+              poznać i eksponować to, co w pomieszczeniu jest najciekawsze, a
+              zarazem zgodne z Waszym charakterem i przysposobieniem. Potrafię
+              słuchać, wyłapywać detale. Każdy z nas ma inne potrzeby. Jestem po
+              to, żeby wszystko połączyć w całość: funkcjonalność, estetykę,
+              Wasze gusta. Na co dzień współpracuję ze specjalistami z wielu
+              branż powiązanych z projektowaniem wnętrz, poczynając od
+              przedstawicieli branży dekoratorskiej, poprzez stolarzy aż do
+              wykonawstwa - to bezpośrednio przekłada się na zadowolenie klienta
+              z naszej współpracy. Dopasowuję do Was nie tylko wnętrza, ale
+              również zakres moich prac. Znajduję czas na wizytę na budowie, na
+              wizytę w sklepach. Zawsze mam czas na rozmowę z Wami. Tworzę
+              kompleksowe projekty poczynając od opracowania koncepcji kończąc
+              na nadzorze budowy, gdy tylko jest taka potrzeba. Działam na
+              obrębie całego kraju, głownie jednak w rejonie Śląska. Tworzę
+              kompleksowe projekty indywidualne jak i komercyjne. Zapraszam do
               kontaktu !
             </p>
           </div>

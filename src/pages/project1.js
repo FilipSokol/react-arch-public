@@ -125,12 +125,9 @@ const project1 = () => {
               </SimpleReactLightbox>
               <div className="text-center md:text-left text-lg lg:text-xl pt-10 md:pt-5">
                 <span className="text-4xl">Śląskie Mieszkanie</span>
-                <p className="pt-5">
-                  Temat: Realizacja projektu wnętrza mieszkania
-                </p>
-                <p>Cel: Wnętrze inwestycyjne</p>
-                <p>Lokalizacja: Katowice, Polska</p>
-                <p>Metraż: </p>
+                <p className="pt-5">Temat: Aranżacja mieszkania na wynajem</p>
+                <p>Lokalizacja: Katowice Brynów</p>
+                <p>Metraż: 40 m²</p>
               </div>
             </div>
           </div>

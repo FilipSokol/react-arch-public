@@ -6,7 +6,7 @@ const Navbar = ({ toggle }) => {
   return (
     <div className="h-navbar">
       <nav
-        className="fixed top-0 inset-x-0 flex justify-between items-center h-navbar shadow bg-white text-black font-lato"
+        className="fixed top-0 inset-x-0 flex justify-between items-center h-navbar shadow bg-white text-black font-lato z-10"
         role="navigation"
       >
         <div className="pl-6 sm:pl-10">
@@ -15,7 +15,7 @@ const Navbar = ({ toggle }) => {
           </Link>
         </div>
 
-        <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
+        <div className="px-4 cursor-pointer nvbar:hidden" onClick={toggle}>
           <svg
             className="w-8 h-8"
             fill="none"
@@ -31,9 +31,12 @@ const Navbar = ({ toggle }) => {
             />
           </svg>
         </div>
-        <div className="pr-8 md:block hidden">
+        <div className="pr-8 nvbar:block hidden">
           <Link to="/" className="p-4">
             <a className="navupper">Strona Główna</a>
+          </Link>
+          <Link to="/portfolio" className="p-4">
+            <a className="navupper">Portfolio</a>
           </Link>
           <Link to="/services" className="p-4">
             <a className="navupper">Usługi</a>
